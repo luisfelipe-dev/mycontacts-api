@@ -8,4 +8,4 @@ app.use(routes);
 
 app.listen(3000, () => console.log('🔥 Server iniciado em http://localhost:3000'));
 
-// O que é docker
+// Preparando o Banco de Dados
