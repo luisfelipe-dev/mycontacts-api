@@ -78,12 +78,6 @@ class ContactController {
     // deletar um registro
     const { id } = request.params;
 
-    const contact = await ContactsRepository.findById(id);
-
-    if (!contact) {
-      return response.status(404).json({ error: 'User not found' });
-    }
-
     await ContactsRepository.delete(id);
     response.sendStatus(204);
   }
