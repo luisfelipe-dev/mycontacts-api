@@ -8,4 +8,4 @@ app.use(routes);
 
 app.listen(3000, () => console.log('🔥 Server iniciado em http://localhost:3000'));
 
-// Refatorando o método create
+// Refatorando os métodos de find
